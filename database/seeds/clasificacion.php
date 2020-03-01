@@ -16,37 +16,37 @@ class clasificacion extends Seeder
             [
                 'clasificacion' => "Automotriz",
                 'estado' => true,
-            ],
+            ]
         );
         DB::table('clasificacion')->insert(
             [
                 'clasificacion' => "Bares",
                 'estado' => true,
-            ],
+            ]
         );
         DB::table('clasificacion')->insert(
             [
                 'clasificacion' => "Ferreterias",
                 'estado' => true,
-            ],
+            ]
         );
         DB::table('clasificacion')->insert(
             [
                 'clasificacion' => "Restaurantes",
                 'estado' => true,
-            ],
+            ]
         );
         DB::table('clasificacion')->insert(
             [
                 'clasificacion' => "Modas",
                 'estado' => true,
-            ],
+            ]
         );
         DB::table('clasificacion')->insert(
             [
                 'clasificacion' => "Droguerias",
                 'estado' => true,
-            ],
+            ]
         );
     }
 }

@@ -28,3 +28,6 @@ php artisan db:seed
 ## refrescar seeder y migrations
 php artisan migrate:fresh --seed
 
+## iniciar servidor laravel
+php artisan serve
+

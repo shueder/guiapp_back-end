@@ -14,6 +14,8 @@ class DatabaseSeeder extends Seeder
         // $this->call(UsersTableSeeder::class);
         $this->call([
                 clasificacion::class,
+                perfil_usuario::class,
+                menu::class
             ]);
     }
 }
