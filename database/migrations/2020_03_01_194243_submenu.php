@@ -16,6 +16,7 @@ class Submenu extends Migration
         Schema::create('submenu',function(Blueprint $table){
             $table->increments('id');
             $table->string('submenu',70);
+            $table->string('url',30);
             $table->integer('idmenu')->unsigned();
             $table->foreign('idmenu')->references('id')->on('menu');
             $table->boolean('estado');

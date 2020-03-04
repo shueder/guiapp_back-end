@@ -46,7 +46,8 @@ class LogicaUsuario {
                 if(Hash::check($data['password'],$usuario->password)){
                     $this->response->error = false;
                     $this->response->message = "Bienvenido ".$usuario->name;
-                    $submenu = SubmenuPerfil::select('submenu.id','submenu.submenu','perfil.perfil','submenu.idmenu')
+                    $submenu = SubmenuPerfil::select('submenu.id','submenu.submenu','perfil.perfil','submenu.idmenu',
+                                        'submenu.url')
                                     ->where('idperfil',$usuario->idperfil)
                                     ->join('perfil','perfil.id','=','submenu_perfil.idperfil')
                                     ->join('submenu','submenu.id','=','submenu_perfil.idsubmenu')

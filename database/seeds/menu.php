@@ -21,6 +21,7 @@ class menu extends Seeder
         DB::table('submenu')->insert(
             [
                 'submenu' => "Evento",
+                'url' => "/evento",
                 'estado' => true,
                 'idmenu' => 1
             ]
@@ -28,6 +29,7 @@ class menu extends Seeder
         DB::table('submenu')->insert(
             [
                 'submenu' => "Lugares",
+                'url' => "/lugares",
                 'estado' => true,
                 'idmenu' => 1
             ]
@@ -35,6 +37,7 @@ class menu extends Seeder
         DB::table('submenu')->insert(
             [
                 'submenu' => "Tours",
+                'url' => "/tour",
                 'estado' => true,
                 'idmenu' => 1
             ]
