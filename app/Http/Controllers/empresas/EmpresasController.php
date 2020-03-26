@@ -35,3 +35,4 @@ class EmpresasController extends Controller
         return response()->json($respuesta);
     }
 }
+ 

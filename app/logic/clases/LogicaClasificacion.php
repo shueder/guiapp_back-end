@@ -4,7 +4,7 @@ namespace App\logic\clases;
 
 use App\Entities\Respuestas;
 use App\models\clases\Clasificacion;
-use Exception;
+use Exception; 
 
 class LogicaClasificacion {
 

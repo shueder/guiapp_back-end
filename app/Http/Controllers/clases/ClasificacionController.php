@@ -35,3 +35,4 @@ class ClasificacionController extends Controller
         return response()->json($respuesta);
     }
 }
+ 

@@ -15,7 +15,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
                 clasificacion::class,
                 perfil_usuario::class,
-                menu::class
+                menu::class,
+                eventos::class
             ]);
     }
 }
