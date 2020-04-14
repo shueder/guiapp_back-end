@@ -16,4 +16,5 @@ Route::group(['prefix' => 'v1'], function () {
     require __DIR__.'/apis/clases/RouterClasificacion.php';
     require __DIR__.'/apis/configuracion/RouterUsuario.php';
     require __DIR__.'/apis/eventos/RouterEventos.php';
+    require __DIR__.'/apis/lugares/RouterLugares.php';
 });

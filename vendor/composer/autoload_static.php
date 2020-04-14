@@ -4502,6 +4502,7 @@ class ComposerStaticInit8fb41eab5ab98024cf2e52fe024c3f7b
         'phpDocumentor\\Reflection\\Types\\String_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/String_.php',
         'phpDocumentor\\Reflection\\Types\\This' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/This.php',
         'phpDocumentor\\Reflection\\Types\\Void_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/Void_.php',
+        'places' => __DIR__ . '/../..' . '/database/seeds/places.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
